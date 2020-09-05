@@ -19,10 +19,18 @@
   color: white;
 }
 
+.cnt-btn:hover {
+  cursor: pointer;
+}
+
+.cnt-btn:focus {
+  outline: none;
+}
+
 .delete-control {
-  background-color: rgb(140,53,255);
+  background-color: rgb(140, 53, 255);
 }
 
 .cancel-control {
-  background-color: rgb(101,123,131)
+  background-color: rgb(101, 123, 131);
 }
