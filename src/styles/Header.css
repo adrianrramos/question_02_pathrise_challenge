@@ -1,0 +1,13 @@
+/* INLINE SHEET HEADER */
+
+.app-header h2 {
+  font-size: 40px;
+  margin: 1rem 0;
+}
+
+.app-header p {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: rgba(0,0,0, .45)
+}

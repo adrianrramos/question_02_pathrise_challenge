@@ -1,0 +1,50 @@
+/* INLINE SHEET CREATE POST */
+
+.create-post-container{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#create-post-form {
+  display: flex;
+  flex-direction: column;
+  width: 22.5rem;
+}
+
+#create-post-form input {
+  height: 30px;
+  width: 100%;
+  margin: .5rem 0;
+  padding: 5px 15px;
+  border-radius: 2.5px;
+  border: 2px rgba(0,0,0,.15) solid
+}
+
+#create-post-form input:focus {
+  cursor: pointer;
+  border-color: rgb(140,53,255) !important;
+}
+
+#create-post-form button {
+  height: 40px;
+  margin: .7rem 0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(140,53,255);
+}
+
+
+.input-icon {
+  position: absolute;
+  right: 15px;
+  color: rgba(0,0,0,.5);
+}

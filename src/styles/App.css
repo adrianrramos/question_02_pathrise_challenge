@@ -1,3 +1,5 @@
+/* INLINE SHEET  APP */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.add-post-button {
+  width: 25rem;
+  height:2.5rem;
+  margin: 1rem 0 .3rem 0;
+  color: rgba(0,0,0, .45);
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.25);
+  background-color: white;
+  border-radius: 5px;
+  -moz-appearance: none;
+  text-decoration: none;
+}
+
+.add-post-button:hover {
+  cursor: pointer
 }

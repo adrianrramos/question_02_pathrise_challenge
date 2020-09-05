@@ -1,0 +1,28 @@
+/* INLINE SHEET DELETE POST */
+
+.delete-post-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delete-post-container h2 {
+  margin-bottom: -10px;
+}
+
+.cnt-btn {
+  margin: 5px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.delete-control {
+  background-color: rgb(140,53,255);
+}
+
+.cancel-control {
+  background-color: rgb(101,123,131)
+}
