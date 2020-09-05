@@ -40,8 +40,3 @@ const App = () => {
 };
 
 export default App;
-
-// =============================
-// TODO: ADD A ALL THE CSS
-// FIXME: ICONS INSIDE THE INPUT FIELDS + HIGHLIGHT THE INPUT FIELD ON CLICK
-// TODO: UPLOAD TO HACKER RANK
