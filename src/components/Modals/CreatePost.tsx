@@ -17,7 +17,7 @@ const CreatePost = ({ closePortal, addNewPost }: CreatePostProps) => {
   const createPost = (e: SyntheticEvent) => {
     e.preventDefault();
 
-    const colors = ["#4A306D", "#49BF71", "#8FB1DF", "FD6E7B", "#FBBE74"];
+    const colors = ["#4A306D", "#49BF71", "#8FB1DF", "#FD6E7B", "#FBBE74"];
     const color = colors[Math.floor(Math.random() * colors.length)];
 
     const postData = {
